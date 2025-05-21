@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wanaag Supermarket</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f7f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #28a745;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #218838;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .intro {
+      max-width: 700px;
+      margin: auto;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #28a745;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Wanaag Supermarket</h1>
+    <p>Fresh groceries delivered with love</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact us</a>
+  </nav>
+
+  <section>
+    <h2>Best Deals of the Week</h2>
+    <img src="Home⁰.jpg" alt="Fresh deals banner" style="width:100%; border-radius: 10px; margin-top: 20px;">
+    <div class="intro">
+      <p>Discover unbeatable prices on your favorite fruits, vegetables, dairy products and more. At Wanaag, we bring fresh directly to your doorstep with just a click!</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Wanaag Supermarket. All rights reserved.
+  </footer>
+
+</body>
+</html>
